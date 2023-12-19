@@ -8,3 +8,28 @@ html {
 *:after {
   box-sizing: inherit;
 }
+
+body {
+  background: #000000;
+  font-family: 'Jost', sans-serif;
+  color: white;
+}
+
+.icon-link {
+  text-decoration: none;
+  color: #333;
+  font-size: 24px;
+}
+
+.icon-link:hover {
+  color: #CCCC99;
+}
+
+.url-link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.url-link:hover {
+  color: #CCCC99;
+}
