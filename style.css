@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
   scroll-behavior: smooth;
+
 }
 
 *,
@@ -9,7 +10,6 @@ html {
   box-sizing: inherit;
 }
 
-body,
 html {
   font-family: 'Jost', sans-serif;
   background: #000000;
@@ -28,9 +28,18 @@ html {
   color: #CCCC99;
 }
 
-.image-container {
-  position: relative;
-
+.content {
+  display: grid;
+  grid-auto-rows: 150px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 16px;
+  height: 300px;
+  width: 300px;
+  place-content: left;
+  /*display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 100px);
+  grid-row: 1/-1;*/
 }
 
 .url-link {
