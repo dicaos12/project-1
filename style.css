@@ -1,7 +1,10 @@
 html {
   box-sizing: border-box;
   scroll-behavior: smooth;
-
+  font-family: 'Jost', sans-serif;
+  background: #000000;
+  color: #ffffff;
+  margin: 0;
 }
 
 *,
@@ -10,13 +13,19 @@ html {
   box-sizing: inherit;
 }
 
-html {
-  font-family: 'Jost', sans-serif;
+article {
   background: #000000;
-  color: #ffffff;
-  margin: 0;
+  grid-row: 1;
+  position: fixed;
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
 }
 
+header {
+  margin-top: 8rem;
+  padding-bottom: 8rem;
+}
 
 .icon-link {
   text-decoration: none;
@@ -31,26 +40,27 @@ html {
 .content {
   display: grid;
   grid-auto-rows: 150px;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 16px;
-  height: 300px;
-  width: 300px;
-  place-content: left;
-  /*display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(4, 100px);
-  grid-row: 1/-1;*/
+  gap: 16px;
+  place-content: center;
+}
+
+.front {
+  display: grid;
+  grid-auto-columns: auto;
+  grid-auto-rows: 3fr 2fr 1fr;
+  max-height: 80vh;
 }
 
 .url-link {
   text-decoration: none;
   color: #ffffff;
+  margin: 10px 15px;
+  padding: 10px 15px;
+  font-size: 1.5rem;
 }
 
 .url-link:hover {
   color: #CCCC99;
-}
-
-.content-box {
-  background: #000000;
 }
