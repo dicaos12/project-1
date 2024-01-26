@@ -13,23 +13,6 @@ html {
   box-sizing: border-box;
 }
 
-/**,
-*:before,
-*:after {
-  box-sizing: inherit;
-}*/
-
-article {
-  display: grid;
-  background: #000000;
-  grid-row: 1;
-  position: fixed;
-  width: 100vw;
-  justify-content: space-around;
-  padding-bottom: 10px;
-  margin-bottom: 10px;
-}
-
 header {
   margin-top: 8rem;
   padding-bottom: 8rem;
@@ -103,6 +86,17 @@ header {
   max-height: 1000vh;
 }
 
+.links {
+  display: grid;
+  background: #000000;
+  grid-row: 1;
+  position: fixed;
+  width: 100vw;
+  justify-content: space-around;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
 .url-link {
   text-decoration: none;
   color: #ffffff;
@@ -116,6 +110,10 @@ header {
 }
 
 .url-link-2 {
-  color: #CCCC99;
+  color: #ffffff;
   text-decoration: none;
+}
+
+.url-link-2:hover {
+  color: #CCCC99;
 }
