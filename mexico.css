@@ -17,6 +17,10 @@ html {
   justify-items: end;
 }
 
+.h3 {
+  font-size: 1.5rem;
+}
+
 .icon-link {
   text-decoration: none;
   color: #333;
@@ -60,19 +64,6 @@ html {
 }
 
 .img-3 img {
-  width: 100%;
-  height: auto;
-  margin: auto 0;
-}
-
-.img-4 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-column-gap: 10px;
-
-}
-
-.img-4 img {
   width: 100%;
   height: auto;
   margin: auto 0;
