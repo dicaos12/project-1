@@ -7,8 +7,12 @@ html {
 }
 
 .content>h2 {
-  margin: 10% 0;
+  margin: 8% 0;
   font-size: 4rem;
+}
+
+.content p {
+  font-size: 1.2rem;
 }
 
 .footer {
