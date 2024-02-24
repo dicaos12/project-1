@@ -1,0 +1,17 @@
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: 'Jost', sans-serif;
+  background: #000000;
+  color: #ffffff;
+}
+
+.content>h3 {
+  margin: 8% 1% 5%;
+  font-size: 2.5rem;
+  text-align: right;
+}
+
+.content p {
+  font-size: 1.2rem;
+  margin: 0 3%;
