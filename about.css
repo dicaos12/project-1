@@ -15,3 +15,20 @@ html {
 .content p {
   font-size: 1.2rem;
   margin: 0 3%;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: end;
+}
+
+.icon-link {
+  text-decoration: none;
+  color: #333;
+  font-size: 24px;
+}
+
+.icon-link:hover {
+  color: #CCCC99;
+}
