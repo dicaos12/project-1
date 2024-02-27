@@ -41,7 +41,8 @@ html {
 
 .img-1 img {
   width: 100%;
-
+  height: auto;
+  margin: auto 0;
 }
 
 .links {
