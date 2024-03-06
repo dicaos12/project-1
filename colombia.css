@@ -2,8 +2,8 @@ html {
   box-sizing: border-box;
   scroll-behavior: smooth;
   font-family: 'Jost', sans-serif;
-  background: #000000;
-  color: #ffffff;
+  background: #DCDCDC;
+  color: #1B365C;
 }
 
 .content>h2 {
@@ -32,7 +32,7 @@ html {
 }
 
 .icon-link:hover {
-  color: #CCCC99;
+  color: #615227;
 }
 
 .img-1 {
@@ -88,7 +88,7 @@ html {
 
 .links {
   display: grid;
-  background: #000000;
+  background: #DCDCDC;
   grid-row: 1;
   position: fixed;
   width: 100vw;
@@ -106,12 +106,12 @@ html {
 
 .url-link {
   text-decoration: none;
-  color: #ffffff;
+  color: #1B365C;
   margin: 10px 15px;
   padding: 10px 15px;
   font-size: 1.5rem;
 }
 
 .url-link:hover {
-  color: #CCCC99;
+  color: #615227;
 }
